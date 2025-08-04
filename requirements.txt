@@ -3,9 +3,9 @@ pandas
 python-dotenv
 google-generativeai
 
-# --- Bloque de compatibilidad para ChromaDB ---
-chromadb==0.4.22
+# --- Bloque de compatibilidad final para ChromaDB y Python 3.13 ---
+chromadb==0.4.24
 pydantic==1.10.13
 fastapi==0.95.2
 uvicorn==0.22.0
-typing-extensions==4.5.0
+typing-extensions==4.8.0
