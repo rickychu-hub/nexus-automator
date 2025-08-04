@@ -1,11 +1,6 @@
-streamlit
+streamlit==1.35.0
 pandas
 python-dotenv
 google-generativeai
-
-# --- Bloque de compatibilidad final para ChromaDB y Python 3.13 ---
 chromadb==0.4.24
-pydantic==1.10.13
-fastapi==0.95.2
-uvicorn==0.22.0
-typing-extensions==4.8.0
+pydantic<2
