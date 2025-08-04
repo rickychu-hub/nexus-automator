@@ -1,3 +1,19 @@
-/.env
+# Ignorar el archivo de variables de entorno (claves de API)
+.env
+
+# Ignorar los secretos de cliente de Google OAuth
+client_secrets.json
+
+# Ignorar el token de sesión guardado de Google OAuth
+credentials.json
+
+# Ignorar la base de datos de la IA y los archivos ZIP grandes
 n8n_db/
+n8n_db.zip
 workflows.zip
+
+# Ignorar archivos de caché y del sistema de Python
+__pycache__/
+*.pyc
+.venv
+venv/
