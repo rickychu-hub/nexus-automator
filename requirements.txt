@@ -8,9 +8,9 @@ pysqlite3-binary
 # Conexión con la IA de Google
 google-generativeai
 
-# Para cargar secretos del archivo .env
+# Para cargar secretos
 python-dotenv
 
-# Librerías de análisis de datos
+# Librerías de datos
 pandas
 numpy
