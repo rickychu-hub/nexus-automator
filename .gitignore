@@ -1,1 +1,3 @@
-.env
+/.env
+n8n_db/
+workflows.zip
